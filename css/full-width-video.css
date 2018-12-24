@@ -1,0 +1,10 @@
+#full-width-video {
+  min-height: 70vh;
+  max-height: 80vh;
+  cursor: pointer;
+}
+
+#full-width-video.bg-overlay {
+  position: unset;
+}
+/*# sourceMappingURL=full-width-video.css.map */

@@ -1,0 +1,30 @@
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+
+    .column {
+        flex: 33%;
+        max-width: 33%;
+        padding: 0 4px;
+
+        @media #{$breakpoint-lg} {
+            flex: 50%;
+            max-width: 50%;
+        }
+
+        @media #{$breakpoint-md} {
+            flex: 100%;
+            max-width: 100%;
+        }
+        
+        @media #{$breakpoint-xs} {
+            flex: 100%;
+            max-width: 100%;
+        }
+            img {
+                margin-top: 8px;
+                vertical-align: middle;
+            }
+      }
+  }
